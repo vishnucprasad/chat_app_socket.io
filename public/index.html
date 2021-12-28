@@ -5,8 +5,10 @@
     </head>
     <body>
         Chat App
-        <button id="increment">+1</button>
-        <button id="decrement">-1</button>
+        <form id="message-form">
+            <input name="message" type="text" placeholder="Type your message here." required>
+            <button type="submit">Send</button>
+        </form>
         <script src="/socket.io/socket.io.js"></script>
         <script src="/js/chat.js"></script>
     </body>
